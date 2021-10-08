@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net5.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+
+		<RootNamespace>AddonObfuscator.Wpf</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="HandyControls" Version="3.3.8" />
+		<PackageReference Include="Ookii.Dialogs.Wpf" Version="4.0.0" />
+		<PackageReference Include="Stylet" Version="1.3.6.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\AddonObfuscator.Core\AddonObfuscator.Core.csproj" />
+	</ItemGroup>
+</Project>

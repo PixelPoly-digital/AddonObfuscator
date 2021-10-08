@@ -1,0 +1,28 @@
+﻿<Application x:Class="AddonObfuscator.Wpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:local="clr-namespace:AddonObfuscator.Wpf"
+             xmlns:s="https://github.com/canton7/Stylet">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="TextBlock" x:Key="SmallTitle">
+                <Setter Property="FontSize" Value="13"/>
+                <Setter Property="Margin" Value="7 7 0 5"/>
+            </Style>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml"/>
+                <hc:ThemeResources UsingSystemTheme="True"/>
+                <hc:Theme/>
+
+                <s:ApplicationLoader>
+                    <s:ApplicationLoader.Bootstrapper>
+                        <local:Bootstrapper/>
+                    </s:ApplicationLoader.Bootstrapper>
+                </s:ApplicationLoader>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
