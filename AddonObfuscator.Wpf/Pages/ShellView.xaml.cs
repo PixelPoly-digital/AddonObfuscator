@@ -1,13 +1,12 @@
-﻿namespace AddonObfuscator.Wpf.Pages
+﻿namespace AddonObfuscator.Wpf.Pages;
+
+/// <summary>
+/// Interaction logic for ShellView.xaml
+/// </summary>
+public partial class ShellView
 {
-    /// <summary>
-    /// Interaction logic for ShellView.xaml
-    /// </summary>
-    public partial class ShellView
+    public ShellView()
     {
-        public ShellView()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }

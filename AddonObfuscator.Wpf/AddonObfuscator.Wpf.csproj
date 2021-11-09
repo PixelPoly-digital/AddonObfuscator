@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
-		<TargetFramework>net5.0-windows</TargetFramework>
+		<TargetFramework>net6.0-windows</TargetFramework>
 		<Nullable>enable</Nullable>
 		<UseWPF>true</UseWPF>
 
@@ -16,6 +16,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\AddonObfuscator.Core\AddonObfuscator.Core.csproj" />
+		<ProjectReference Include="..\AddonObfuscator.Core\AddonObfuscator.Core.csproj" />
 	</ItemGroup>
 </Project>

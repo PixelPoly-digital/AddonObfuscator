@@ -1,8 +1,7 @@
-﻿namespace AddonObfuscator.Core
+﻿namespace AddonObfuscator.Core;
+
+public enum Formatting
 {
-    public enum Formatting
-    {
-        Default,
-        Minify
-    }
+    Default,
+    Minify
 }
